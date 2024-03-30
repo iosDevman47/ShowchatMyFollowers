@@ -21,6 +21,7 @@ struct ListSection: View {
         
         ZStack(alignment: .trailing) {
             
+            /// Button that appears on swiping
             Button {
                 deleteAction(data)
             } label: {
@@ -59,12 +60,15 @@ struct ListSection: View {
                 }
                 .frame(maxWidth: .infinity)
                 
+                /// Sub row of shows
                 if isExpanded {
                     ListShows(shows: data.shows)
                 }
             }
             .background(Color("mainViewBackground"))
             .offset(x: offset)
+            
+            /// Swipe-to-delete gesture
             .gesture(DragGesture()
                 .updating($isSwiping, body: { value, state, _ in
                     state = true
@@ -77,12 +81,15 @@ struct ListSection: View {
         
     }
     
+    
+    /// The method implements swiping
     private func onChanged(value: DragGesture.Value) {
         if value.translation.width < 0 && isSwiping {
             offset = value.translation.width
         }
     }
     
+    /// The method regulates the amount of offset of swiping
     private func onEnd(value: DragGesture.Value) {
         withAnimation {
             if -value.translation.width >= 30 {

@@ -21,8 +21,6 @@ struct ListSectionData: Identifiable {
     let shows: [Show]
     let id = UUID()
     
-    var offset: CGFloat = 0
-    
     var modalWindow: ModalWindowAppearance {
         switch state {
         case .following:

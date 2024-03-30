@@ -35,6 +35,7 @@ struct ModalWindow: View {
                 .font(.custom("Montserrat-Regular", size: 16))
                 .padding(.bottom)
             
+            /// Primary button
             MainButton(appearance: MainButtonModel(text: appearance.primaryButtonText,
                                                    textColor: Color("mainSectionButtonText"),
                                                    backgroundColor: AnyView(Gradients.mainButtonGradient))) 
@@ -43,6 +44,7 @@ struct ModalWindow: View {
             }
             .padding(.bottom, 12)
             
+            /// Secondary button
             MainButton(appearance: MainButtonModel(text: appearance.secondaryButtonText,
                                                    textColor: Color(.white),
                                                    backgroundColor: AnyView(Gradients.listButtonBackgroundGradient))) 

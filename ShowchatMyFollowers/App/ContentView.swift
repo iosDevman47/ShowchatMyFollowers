@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State var users: [ListSectionData] = ListSectionData.getData()
-    @State var user: ListSectionData?
+    
+    @State var user: ListSectionData? /// Used to indicate whether to present modal view or remove
     
     var body: some View {
         
@@ -40,6 +41,8 @@ struct ContentView: View {
                         self.user = deleteUser
                     }
                 }
+                
+                /// Modal view
                 .sheet(item: $user) { user in
                     ModalWindow(appearance: user.modalWindow) {
                         self.user = nil
