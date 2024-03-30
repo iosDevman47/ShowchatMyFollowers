@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4D01A42BB83D5F00F47385 /* ModalWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D01A32BB83D5F00F47385 /* ModalWindow.swift */; };
+		0F4D01A62BB872BA00F47385 /* ListShows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4D01A52BB872BA00F47385 /* ListShows.swift */; };
 		0F5490F62BB728310074BB72 /* ShowchatMyFollowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5490F52BB728310074BB72 /* ShowchatMyFollowersApp.swift */; };
 		0F5490F82BB728310074BB72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5490F72BB728310074BB72 /* ContentView.swift */; };
 		0F5490FA2BB728320074BB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5490F92BB728320074BB72 /* Assets.xcassets */; };
@@ -21,9 +23,18 @@
 		0F54911A2BB743F70074BB72 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F5491192BB743F70074BB72 /* Montserrat-Bold.ttf */; };
 		0F54911C2BB744320074BB72 /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F54911B2BB744320074BB72 /* Montserrat.ttf */; };
 		0F54911F2BB7467D0074BB72 /* ProfileSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54911E2BB7467D0074BB72 /* ProfileSection.swift */; };
+		0F5491222BB74BD20074BB72 /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5491212BB74BD20074BB72 /* ListButton.swift */; };
+		0F5491242BB7ED880074BB72 /* ListAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5491232BB7ED880074BB72 /* ListAvatar.swift */; };
+		0F5491262BB7EEC50074BB72 /* ListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5491252BB7EEC50074BB72 /* ListSection.swift */; };
+		0F5491292BB7F42E0074BB72 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5491282BB7F42E0074BB72 /* SearchBar.swift */; };
+		0F54912C2BB7FB150074BB72 /* ListSectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54912B2BB7FB150074BB72 /* ListSectionData.swift */; };
+		0F54912F2BB80B6D0074BB72 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54912E2BB80B6D0074BB72 /* MainButton.swift */; };
+		0F5491312BB80BCD0074BB72 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5491302BB80BCD0074BB72 /* Gradients.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4D01A32BB83D5F00F47385 /* ModalWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWindow.swift; sourceTree = "<group>"; };
+		0F4D01A52BB872BA00F47385 /* ListShows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListShows.swift; sourceTree = "<group>"; };
 		0F5490F22BB728310074BB72 /* ShowchatMyFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowchatMyFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5490F52BB728310074BB72 /* ShowchatMyFollowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowchatMyFollowersApp.swift; sourceTree = "<group>"; };
 		0F5490F72BB728310074BB72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +51,13 @@
 		0F5491192BB743F70074BB72 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		0F54911B2BB744320074BB72 /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
 		0F54911E2BB7467D0074BB72 /* ProfileSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSection.swift; sourceTree = "<group>"; };
+		0F5491212BB74BD20074BB72 /* ListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		0F5491232BB7ED880074BB72 /* ListAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAvatar.swift; sourceTree = "<group>"; };
+		0F5491252BB7EEC50074BB72 /* ListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSection.swift; sourceTree = "<group>"; };
+		0F5491282BB7F42E0074BB72 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		0F54912B2BB7FB150074BB72 /* ListSectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionData.swift; sourceTree = "<group>"; };
+		0F54912E2BB80B6D0074BB72 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		0F5491302BB80BCD0074BB72 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4D01A22BB83D4D00F47385 /* ModalWindow */ = {
+			isa = PBXGroup;
+			children = (
+				0F4D01A32BB83D5F00F47385 /* ModalWindow.swift */,
+			);
+			path = ModalWindow;
+			sourceTree = "<group>";
+		};
+		0F4D01A72BB8B47300F47385 /* ViewElements */ = {
+			isa = PBXGroup;
+			children = (
+				0F5491072BB733C60074BB72 /* ListSection */,
+				0F54912D2BB80B340074BB72 /* MainElements */,
+				0F4D01A22BB83D4D00F47385 /* ModalWindow */,
+				0F5491062BB733B40074BB72 /* ProfileSection */,
+				0F5491272BB7F3E90074BB72 /* SearchBar */,
+			);
+			path = ViewElements;
+			sourceTree = "<group>";
+		};
 		0F5490E92BB728310074BB72 = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +110,11 @@
 		0F5490F42BB728310074BB72 /* ShowchatMyFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				0F5491122BB742540074BB72 /* Info.plist */,
-				0F54910E2BB742170074BB72 /* Assets */,
-				0F5491072BB733C60074BB72 /* ListSection */,
-				0F5491062BB733B40074BB72 /* ProfileSection */,
 				0F5491032BB72FE00074BB72 /* App */,
+				0F54910E2BB742170074BB72 /* Assets */,
+				0F54912A2BB7FB040074BB72 /* Data */,
+				0F5491122BB742540074BB72 /* Info.plist */,
+				0F4D01A72BB8B47300F47385 /* ViewElements */,
 				0F5490FB2BB728320074BB72 /* Preview Content */,
 			);
 			path = ShowchatMyFollowers;
@@ -111,6 +149,8 @@
 		0F5491072BB733C60074BB72 /* ListSection */ = {
 			isa = PBXGroup;
 			children = (
+				0F5491202BB74BB50074BB72 /* Views */,
+				0F5491252BB7EEC50074BB72 /* ListSection.swift */,
 			);
 			path = ListSection;
 			sourceTree = "<group>";
@@ -118,9 +158,10 @@
 		0F54910E2BB742170074BB72 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0F54910F2BB742280074BB72 /* Fonts */,
 				0F5490F92BB728320074BB72 /* Assets.xcassets */,
 				0F5491042BB731190074BB72 /* Colors.xcassets */,
+				0F54910F2BB742280074BB72 /* Fonts */,
+				0F5491302BB80BCD0074BB72 /* Gradients.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -145,6 +186,40 @@
 				0F54910C2BB73A060074BB72 /* ProfileButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0F5491202BB74BB50074BB72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F5491212BB74BD20074BB72 /* ListButton.swift */,
+				0F5491232BB7ED880074BB72 /* ListAvatar.swift */,
+				0F4D01A52BB872BA00F47385 /* ListShows.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F5491272BB7F3E90074BB72 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F5491282BB7F42E0074BB72 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		0F54912A2BB7FB040074BB72 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F54912B2BB7FB150074BB72 /* ListSectionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F54912D2BB80B340074BB72 /* MainElements */ = {
+			isa = PBXGroup;
+			children = (
+				0F54912E2BB80B6D0074BB72 /* MainButton.swift */,
+			);
+			path = MainElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,12 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5491312BB80BCD0074BB72 /* Gradients.swift in Sources */,
 				0F5490F82BB728310074BB72 /* ContentView.swift in Sources */,
 				0F54911F2BB7467D0074BB72 /* ProfileSection.swift in Sources */,
+				0F5491222BB74BD20074BB72 /* ListButton.swift in Sources */,
 				0F54910B2BB738170074BB72 /* ProfileStats.swift in Sources */,
 				0F54910D2BB73A060074BB72 /* ProfileButton.swift in Sources */,
 				0F5491092BB734130074BB72 /* ProfileAvatar.swift in Sources */,
+				0F4D01A42BB83D5F00F47385 /* ModalWindow.swift in Sources */,
+				0F5491242BB7ED880074BB72 /* ListAvatar.swift in Sources */,
+				0F54912C2BB7FB150074BB72 /* ListSectionData.swift in Sources */,
+				0F4D01A62BB872BA00F47385 /* ListShows.swift in Sources */,
+				0F54912F2BB80B6D0074BB72 /* MainButton.swift in Sources */,
+				0F5491292BB7F42E0074BB72 /* SearchBar.swift in Sources */,
 				0F5490F62BB728310074BB72 /* ShowchatMyFollowersApp.swift in Sources */,
+				0F5491262BB7EEC50074BB72 /* ListSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -344,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -371,6 +455,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -401,6 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
